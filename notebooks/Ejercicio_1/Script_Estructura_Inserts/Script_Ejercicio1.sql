@@ -133,7 +133,9 @@ VALUES
 (9, '2025-04-30 18:40:00', 'ORD0016', 1, 'PAGADA', '2025-04-30 19:10:00', 'Compra de artículos electrónicos para la casa'),
 (10, '2025-04-30 19:50:00', 'ORD0017', 2, 'PAGADA', '2025-04-30 20:20:00', 'Compra para oficina y gadgets electrónicos'),
 (10, '2025-04-30 21:00:00', 'ORD0018', 3, 'PAGADA', '2025-04-30 21:30:00', 'Compra de accesorios para computadoras y audio'),
-(10, '2025-04-30 22:00:00', 'ORD0019', 4, 'PAGADA', '2025-04-30 22:30:00', 'Repuestos de automóviles y accesorios de audio');
+(10, '2025-04-30 22:00:00', 'ORD0019', 4, 'PAGADA', '2025-04-30 22:30:00', 'Repuestos de automóviles y accesorios de audio'),
+(10, '2025-03-30 22:00:00', 'ORD0020', 1, 'PAGADA', '2025-03-30 22:30:00', 'Repuestos de automóviles y accesorios de audio'),
+(10, '2025-04-28 22:00:00', 'ORD0021', 1, 'PAGADA', '2025-04-28 22:30:00', 'Repuestos de automóviles');
 
 
 -- Inserciones en la tabla detalle_orden
@@ -158,4 +160,6 @@ VALUES
 (9, 3, 3, 129.99876),
 (9, 5, 1, 89.99456),
 (10, 6, 2, 199.99987),
-(10, 7, 1, 59.98123);
+(10, 7, 1, 59.98123),
+(10, 5, 2, 89.99456),
+(10, 9, 2, 89.99456);
